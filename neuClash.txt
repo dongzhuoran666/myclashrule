@@ -14,7 +14,7 @@ proxies:
     cipher: aes-256-ctr
     password: xiqK92
   - name: 2408:832e:a9a:f8c0::1001:12763
-    server: 2408:832e:a9f:8f50::1000
+    server: 2408:832e:a9a:f8c0::1001
     port: 12763
     type: ss
     cipher: rc4-md5
