@@ -13,8 +13,8 @@ proxies:
     type: ss
     cipher: aes-256-ctr
     password: xiqK92
-  - name: 2408:832e:a9a:f8c0::1001:12763
-    server: 2408:832e:a9a:f8c0::1001
+  - name: 2408:832e:a90:f530::1000:12763
+    server: 2408:832e:a90:f530::1000
     port: 12763
     type: ss
     cipher: rc4-md5
@@ -29,7 +29,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -37,28 +37,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇭🇰 NSLnet - 【IPv6】STD - 直連 - 香港 HKT
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰 NSLnet - 【IPv6】STD - 直連 - 香港 HKT
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 🇭🇰 NSLnet - 【IPv6】STD - 直連 - 香港 HKT
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 🇭🇰 NSLnet - 【IPv6】STD - 直連 - 香港 HKT
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -66,7 +66,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇭🇰 NSLnet - 【IPv6】STD - 直連 - 香港 HKT
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,7 +86,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🇭🇰 NSLnet - 【IPv6】STD - 直連 - 香港 HKT
-      - 2408:832e:a9a:f8c0::1001:12763
+      - 2408:832e:a90:f530::1000:12763
 rules:
   - DOMAIN-SUFFIX,acl4ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
